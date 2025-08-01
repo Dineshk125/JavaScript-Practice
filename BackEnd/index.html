@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.js</title>
+  </head>
+  <body>
+    <h1>Node.js - Is providing javascript code envirnment.</h1>
+    <h1>Node REPL - Read,Evaluat,Print and Loop</h1>
+    <h1>Process in Node - process, process.argv</h1>
+    <h1>Export in Files - requiring files</h1>
+    <ul>
+      <li>
+        require() - a Built-in Function to include external modules that exist
+        seprate files.
+      </li>
+      <li>
+        module.exports - a special object (are use to access one file to another
+        js file )
+      </li>
+    </ul>
+    <h1>modul.exports - requiring directories</h1>
+    <h1>NPM (Node Package Manager)</h1>
+    <p>npm is the standared package manager for node.js</p>
+    <ul>
+      <li>library of packages</li>
+      <li>command line tool</li>
+    </ul>
+    <p>Installing Packages - npm install</p>
+    <ul>
+      <li>
+        node_modules - thet contain every installed dependancy for your project.
+      </li>
+      <li>
+        package-lock.json - it records the exact version of every installed
+        dependancy, include it's sub-dependancy and their versions.
+      </li>
+      <li>
+        package.json - this file contain descriptive and functional metadata
+        about a project, such as a name , vewsion, and dependencies.
+      </li>
+    </ul>
+    <h1>Local v/s Global package Installing</h1>
+    <ul>
+      <li>npm install -g <- package name -></li>
+      <li>npm link <- package name -></li>
+    </ul>
+    <h1>require v/s import</h1>
+    <p>import {sum} from "./math.js</p>
+    <p>
+      we can't selectively load only the pieces we need with require but with
+      import, we can selectivly load only the pieces we need. which can save
+      memory.
+    </p>
+    <p>
+      Loadind in synchronous for 'require' nut can be asynchronous for 'import'.
+    </p>
+    <h1>Library v/s Framework</h1>
+    <ul>
+      <li>
+        Library - is a collection of pre-written code that can used to perform
+        specific task. eg - axios
+      </li>
+      <li>
+        Framework - is a set of pre-written code that provides a structure for
+        developing software applications. eg. - express
+      </li>
+    </ul>
+    <h1>Express</h1>
+    <p>
+      A Node.js application framework that helps us to make applications. it is
+      used for server side programming.
+    </p>
+    <p>Getting start with Express</p>
+    <p>
+      Portss - are logical endpoint of a network connection that is used to
+      exchange info b/w a web server and a web client.
+    </p>
+    <p>app.use method - is used to listion all requests.</p>
+    <h1>Routing</h1>
+    <p>
+      It is process of selecting a path for traffic in a network or between of
+      accross multipale networks.
+    </p>
+    <h1>Nodemon - to Automatically restart server with code changes.</h1>
+    <h1>Path Parameters - req.params</h1>
+    <h1>Query String - req.query</h1>
+    <h1>Templating</h1>
+    <p>EJS (Embedded javaScript templates)</p>
+    <p>
+      Ejs is a simple templating language that you generate HTML markup with
+      plain javaScript.
+    </p>
+  </body>
+</html>
